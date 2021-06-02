@@ -40,4 +40,6 @@ fetch("https://sheet.best/api/sheets/2664c7c7-57e9-456c-bfb3-dd5bca1751cd")
     })
 .catch((err) => {
     console.log("Pucha, algo falló", err);
+    document.getElementById("portfolio").innerHTML +=
+    '<div class="error text-center fs-1"><p>Ups! Ocurrió un error :-(</p></div>';
 });

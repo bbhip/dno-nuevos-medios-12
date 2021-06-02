@@ -44,10 +44,6 @@ body{
 	font-weight: 700;
 }
 
-.lead {
-	color: #2d826a;
-}
-
 .card {
 	background:#cce3cb;
 }
@@ -73,6 +69,11 @@ a:hover {
 
 .borde {
 	border-bottom: 1px solid #2d826a;
+}
+
+.error {
+	font-weight: 700;
+	color:#2d826a;
 }
 
 a.nav-link{
